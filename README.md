@@ -13,6 +13,10 @@ Documente com print e coloque aqui as respostas
 
 1) Subir o tcp server simple explicar os estados da conexão, bind, listen etc.
  ![Captura de Tela (17)](https://github.com/morganananana/Fundatec-2024-Aula-Socket/assets/130008630/b798e6c0-da8d-491b-901a-43844230b836)
+
+Bind: É uma função que associa um endereço IP e número de porta a um socket, permitindo que ele receba pacotes enviados para esse endereço e porta específicos.
+
+Listen: É uma função que marca um socket como passivo, permitindo que ele aceite conexões de entrada. Após chamá-la, o socket está pronto para receber conexões de clientes.
 ***
 2) Executar o programa de cliente simple server tcp e verificar os estados da conexão.
 ![Captura de Tela (18)](https://github.com/morganananana/Fundatec-2024-Aula-Socket/assets/130008630/b79e6888-1675-411f-9ff7-4c77de2430e3)
